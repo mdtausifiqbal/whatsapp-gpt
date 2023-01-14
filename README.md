@@ -18,7 +18,7 @@ You can use this WhatsApp GPT Bot with you whatsapp account
 
 1. run `npm install` to install all dependency of this project.
 2. run `npm start` to start Bot server
-3. scan QR code with your Whatsapp App from Linked Devices option
-4. after successful authentication, ask any question in this format
+3. scan QR code with your first Whatsapp account from Linked Devices option
+4. after successful authentication, tell your friend to ask any question on your whatsapp number in this format. or you can also ask question by sending message from your second whatsapp account.
 
 `gpt, write a code for express server?`
