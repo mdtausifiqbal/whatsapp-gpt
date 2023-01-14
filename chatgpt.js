@@ -13,7 +13,7 @@ ChatGPT.prototype.ask = async function (prompt) {
     prompt: prompt,
     model: "text-davinci-002",
     temperature: 0.5,
-    max_tokens: 2000,
+    max_tokens: 500,
   });
   return res.data.choices[0].text;
 };
