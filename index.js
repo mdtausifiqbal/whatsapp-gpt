@@ -25,8 +25,14 @@ client.on("ready", async () => {
 
 client.on("message", async (message) => { 
    let question = message.body; 
-   let answer = await bot.ask(question); 
-   message.reply(answer);
+     if (message.hasMedia) { 
+       //No response 
+     }
+     else{
+       let answer = await bot.ask(question); 
+       message.reply(answer);
+     }
+   
  });
 
 client.initialize();
